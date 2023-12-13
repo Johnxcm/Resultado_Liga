@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#content {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+h1{
+    color:white;
+    padding:0px;
+    font-size: 35px;
+}
+h2 {
+    color: #333;
+}
+
+#Premier\ League {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #333;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+legend {
+    color: #333;
+    font-weight: bold;
+}
+
+.equipo-local,
+.equipo-visitante {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.resultado {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+/* Media Query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    nav li {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 8px;
+    }
+
+    .equipo-local,
+    .equipo-visitante,
+    .resultado {
+        width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+}

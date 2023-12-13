@@ -1,0 +1,101 @@
+/* Estilos para la tabla */
+/* Estilos para la tabla */
+/* Estilos para el título h2 de la Bundesliga */
+nav {
+    background-color: #333;
+}
+#content nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+h1 {
+    color:white;
+    padding:20px;
+    background-color: #1900ff;
+    font-size: 35px;
+}
+
+#content h2 {
+    background-color: #1900ff; 
+    color: white; 
+    padding: 10px; 
+    text-align: center;
+}
+
+#PremierLeagueTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#PremierLeagueTable th, #PremierLeagueTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#PremierLeagueTable th {
+    background-color: #333;
+    color: white;
+}
+
+#PremierLeagueTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#PremierLeagueTable tbody tr:hover {
+    background-color: #484c86;
+}
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Ajustes para pantallas pequeñas */
+    li {
+        display: block;
+        padding: 10px;
+    }
+
+    a {
+        display: block;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    #PremierLeagueTable {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,124 @@
+/* Estilo para la barra de navegación */
+h3{
+    color: #201f1f;
+    font-size: 30px;
+    padding: auto;
+}
+nav {
+    background-color:black;
+    padding: 10px;
+}
+h3:hover {
+    color: #ff0000; /* Cambia el color que desees al pasar el mouse sobre el h3 */
+}
+/* Estilo para el contenido de la barra de navegación */
+#content nav {
+    text-align: center;
+}
+
+/* Estilo para la lista no ordenada */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estilo para cada elemento de la lista */
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para los enlaces cuando se pasa el mouse sobre ellos */
+a:hover {
+    color: red;
+}
+
+/* Estilos para la lista de selección de la liga */
+ul.league-list {
+    text-align: center;
+}
+
+/* Estilos para cada elemento de la lista de selección de la liga */
+ul.league-list li {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces de la lista de selección de la liga */
+ul.league-list a {
+    display: block;
+    background-color: #201f1f;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para los enlaces de la lista de selección de la liga al pasar el mouse sobre ellos */
+ul.league-list a:hover {
+    background-color: #961a1a;
+}
+
+/* Estilos para las imágenes de la lista de selección de la liga */
+ul.league-list img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color:white;
+    padding:20px;
+    background-color: #a32a2a;
+    font-size: 35px;
+}
+/* Media Query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    /* Ajustes para pantallas pequeñas */
+    li {
+        display: block;
+        padding: 10px;
+    }
+
+    a {
+        display: block;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 24px;
+        padding: 5px; /* Ajuste para espaciado en pantallas pequeñas */
+    }
+
+    ul.league-list li {
+        margin-bottom: 5px; /* Reducción del espacio entre elementos en pantallas pequeñas */
+    }
+
+    ul.league-list a {
+        padding: 8px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
